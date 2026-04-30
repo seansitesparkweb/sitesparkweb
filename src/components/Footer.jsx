@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       className="px-4 sm:px-6 py-10 text-center md:text-left"
-      style={{ borderTop: '1px solid rgba(251,191,36,0.09)', background: '#12100d' }}
+      style={{ borderTop: '1px solid rgba(248,113,113,0.09)', background: '#12100d' }}
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div>

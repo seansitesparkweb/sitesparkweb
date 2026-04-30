@@ -3,19 +3,31 @@ export default function Contact() {
     <section id="contact" className="py-20 sm:py-24 px-4 sm:px-6 relative" style={{ background: '#12100d' }}>
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f59e0b' }}>Get in Touch</p>
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f87171' }}>Get in Touch</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 leading-tight">
             Let's Build Something <span className="gradient-text">Great Together</span>
           </h2>
           <p className="text-base sm:text-lg leading-relaxed max-w-xl mx-auto" style={{ color: '#9a8878' }}>
             Fill out the short form below and I'll get back to you at my earliest convenience.
           </p>
+
+          <a
+            href="https://api.leadconnectorhq.com/widget/form/uPdN1naffr3R0xSSXEt2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-7 py-3 rounded-xl text-sm mt-6"
+          >
+            Fill Out the Form
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
 
         {/* Embedded form */}
         <div
           className="rounded-2xl overflow-hidden"
-          style={{ background: '#1e1812', border: '1px solid rgba(251,191,36,0.1)' }}
+          style={{ background: '#1e1812', border: '1px solid rgba(248,113,113,0.1)' }}
         >
           <iframe
             src="https://api.leadconnectorhq.com/widget/form/uPdN1naffr3R0xSSXEt2"
@@ -59,7 +71,7 @@ export default function Contact() {
             },
           ].map((item, i) => (
             <div key={i} className="flex items-center justify-center gap-2 text-slate-500 text-sm">
-              <span style={{ color: '#f59e0b' }}>{item.icon}</span>
+              <span style={{ color: '#f87171' }}>{item.icon}</span>
               {item.href ? (
                 <a href={item.href} className="transition-colors" style={{ color: '#9a8878' }}>{item.label}</a>
               ) : (

@@ -3,25 +3,25 @@ const steps = [
     num: '01',
     title: 'Discover Your Goals',
     desc: 'We start with a conversation about your business, your audience, and what you want your website to achieve.',
-    color: '#f59e0b',
+    color: '#f87171',
   },
   {
     num: '02',
     title: 'Design the Layout',
     desc: 'We craft a clean, modern design concept built around your brand identity and business objectives.',
-    color: '#fb923c',
+    color: '#ef4444',
   },
   {
     num: '03',
     title: 'Build and Refine',
     desc: 'We build your site and work through revisions together until every detail is exactly right.',
-    color: '#ea580c',
+    color: '#dc2626',
   },
   {
     num: '04',
     title: 'Launch Your Website',
     desc: 'Your site goes live — fully tested, optimized, and ready to make a great impression from day one.',
-    color: '#d97706',
+    color: '#b91c1c',
   },
 ]
 
@@ -30,7 +30,7 @@ export default function Process() {
     <section id="process" className="py-20 sm:py-24 px-4 sm:px-6" style={{ background: '#17130f' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f59e0b' }}>How It Works</p>
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f87171' }}>How It Works</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             From Idea to <span className="gradient-text">Live Website</span>
           </h2>
@@ -42,7 +42,7 @@ export default function Process() {
         <div className="relative">
           <div
             className="hidden lg:block absolute top-10 left-0 right-0 h-px"
-            style={{ background: 'linear-gradient(90deg, transparent, rgba(217,119,6,0.35), rgba(234,88,12,0.35), transparent)', margin: '0 10%' }}
+            style={{ background: 'linear-gradient(90deg, transparent, rgba(220,38,38,0.35), rgba(185,28,28,0.35), transparent)', margin: '0 10%' }}
           />
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

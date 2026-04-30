@@ -3,15 +3,15 @@ import SatisfactionMeter from './SatisfactionMeter'
 export default function Hero() {
   return (
     <section className="relative flex flex-col items-center overflow-hidden pt-20" style={{ background: '#12100d', minHeight: '100svh' }}>
-      <div className="glow-orb w-96 h-96 opacity-20" style={{ background: '#d97706', top: '10%', left: '-8%' }} />
-      <div className="glow-orb w-80 h-80 opacity-12" style={{ background: '#ea580c', bottom: '10%', right: '-5%' }} />
+      <div className="glow-orb w-96 h-96 opacity-20" style={{ background: '#dc2626', top: '10%', left: '-8%' }} />
+      <div className="glow-orb w-80 h-80 opacity-12" style={{ background: '#b91c1c', bottom: '10%', right: '-5%' }} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16 lg:py-20 flex-1">
 
         {/* ── Left copy ── */}
         <div className="space-y-8">
-          <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm" style={{ color: '#fbbf24' }}>
-            <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#fbbf24' }} />
+          <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm" style={{ color: '#f87171' }}>
+            <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#f87171' }} />
             Modern Web Design Studio
           </div>
 

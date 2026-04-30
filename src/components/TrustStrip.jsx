@@ -18,9 +18,9 @@ export default function TrustStrip() {
     <div
       className="py-5 overflow-hidden"
       style={{
-        borderTop: '1px solid rgba(251,191,36,0.1)',
-        borderBottom: '1px solid rgba(251,191,36,0.1)',
-        background: 'rgba(217,119,6,0.04)',
+        borderTop: '1px solid rgba(248,113,113,0.1)',
+        borderBottom: '1px solid rgba(248,113,113,0.1)',
+        background: 'rgba(220,38,38,0.04)',
       }}
     >
       <div className="animate-marquee">

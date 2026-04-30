@@ -6,7 +6,6 @@ const CY     = SIZE / 2
 const RADIUS = 112
 const CIRC   = 2 * Math.PI * RADIUS
 
-// Generate tick marks around the ring
 const TICKS = Array.from({ length: 60 }, (_, i) => {
   const angle  = (i / 60) * 360 - 90
   const rad    = (angle * Math.PI) / 180
@@ -70,11 +69,10 @@ export default function SatisfactionMeter() {
         position: 'relative',
         animation: done ? 'float2 7s ease-in-out infinite' : 'none',
       }}>
-        {/* Outer ambient glow — visible once done */}
         <div style={{
           position: 'absolute', inset: -24,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(251,146,60,0.13) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(220,38,38,0.13) 0%, transparent 70%)',
           animation: 'orb-pulse 3.5s ease-in-out infinite',
           opacity: done ? 1 : 0,
           transition: 'opacity 1s ease',
@@ -84,9 +82,9 @@ export default function SatisfactionMeter() {
         <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`} style={{ overflow: 'visible' }}>
           <defs>
             <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%"   stopColor="#fbbf24" />
-              <stop offset="55%"  stopColor="#fb923c" />
-              <stop offset="100%" stopColor="#ea580c" />
+              <stop offset="0%"   stopColor="#f87171" />
+              <stop offset="55%"  stopColor="#ef4444" />
+              <stop offset="100%" stopColor="#dc2626" />
             </linearGradient>
             <filter id="ringGlow" x="-30%" y="-30%" width="160%" height="160%">
               <feGaussianBlur stdDeviation="4" result="blur" />
@@ -97,7 +95,6 @@ export default function SatisfactionMeter() {
             </filter>
           </defs>
 
-          {/* Background track */}
           <circle
             cx={CX} cy={CY} r={RADIUS}
             fill="none"
@@ -105,16 +102,14 @@ export default function SatisfactionMeter() {
             strokeWidth={11}
           />
 
-          {/* Tick marks */}
           {TICKS.map((t, i) => (
             <line key={i}
               x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2}
-              stroke="#fbbf24" strokeOpacity={t.op} strokeWidth={t.sw}
+              stroke="#f87171" strokeOpacity={t.op} strokeWidth={t.sw}
               strokeLinecap="round"
             />
           ))}
 
-          {/* Progress arc */}
           <circle
             cx={CX} cy={CY} r={RADIUS}
             fill="none"
@@ -127,7 +122,6 @@ export default function SatisfactionMeter() {
             filter={done ? 'url(#ringGlow)' : undefined}
           />
 
-          {/* Glowing tip dot */}
           {pct > 0 && pct < 100 && (() => {
             const ang = ((pct / 100) * 360 - 90) * (Math.PI / 180)
             return (
@@ -135,13 +129,12 @@ export default function SatisfactionMeter() {
                 cx={CX + RADIUS * Math.cos(ang)}
                 cy={CY + RADIUS * Math.sin(ang)}
                 r={7}
-                fill="#fbbf24"
+                fill="#f87171"
                 filter="url(#ringGlow)"
               />
             )
           })()}
 
-          {/* Center: big number */}
           <text
             x={CX} y={CY - 12}
             textAnchor="middle"
@@ -154,11 +147,10 @@ export default function SatisfactionMeter() {
             {pct}
           </text>
 
-          {/* % symbol */}
           <text
             x={CX} y={CY + 24}
             textAnchor="middle"
-            fill="#fbbf24"
+            fill="#f87171"
             fontSize={20}
             fontWeight={700}
             fontFamily="Inter, system-ui, sans-serif"
@@ -166,7 +158,6 @@ export default function SatisfactionMeter() {
             %
           </text>
 
-          {/* SATISFACTION label — fades in when done */}
           <text
             x={CX} y={CY + 50}
             textAnchor="middle"
@@ -213,7 +204,7 @@ export default function SatisfactionMeter() {
             alignItems: 'center',
             gap: 12,
             background: '#1e1812',
-            border: '1px solid rgba(251,191,36,0.1)',
+            border: '1px solid rgba(248,113,113,0.1)',
             borderRadius: 12,
             padding: '9px 14px',
             opacity: showStats[i] ? 1 : 0,
@@ -222,11 +213,11 @@ export default function SatisfactionMeter() {
           }}>
             <div style={{
               width: 28, height: 28, borderRadius: 8, flexShrink: 0,
-              background: 'rgba(217,119,6,0.14)',
-              border: '1px solid rgba(217,119,6,0.28)',
+              background: 'rgba(220,38,38,0.14)',
+              border: '1px solid rgba(220,38,38,0.28)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
             }}>
-              <svg width={13} height={13} fill="none" stroke="#f59e0b" viewBox="0 0 24 24">
+              <svg width={13} height={13} fill="none" stroke="#f87171" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
               </svg>
             </div>

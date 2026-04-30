@@ -1,19 +1,19 @@
 export default function CTA() {
   return (
     <section className="py-20 sm:py-24 px-4 sm:px-6 relative overflow-hidden" style={{ background: '#12100d' }}>
-      <div className="glow-orb w-[500px] h-[500px] opacity-18" style={{ background: '#d97706', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
+      <div className="glow-orb w-[500px] h-[500px] opacity-18" style={{ background: '#dc2626', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
 
       <div className="max-w-4xl mx-auto text-center relative">
         <div
           className="p-8 sm:p-12 lg:p-16 rounded-3xl"
           style={{
             background: '#1e1812',
-            border: '1px solid rgba(251,191,36,0.12)',
+            border: '1px solid rgba(248,113,113,0.12)',
             backdropFilter: 'blur(20px)',
           }}
         >
-          <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm mb-6" style={{ color: '#fbbf24' }}>
-            <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#fbbf24' }} />
+          <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm mb-6" style={{ color: '#f87171' }}>
+            <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#f87171' }} />
             Now Accepting New Clients
           </div>
 

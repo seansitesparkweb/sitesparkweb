@@ -18,7 +18,7 @@ export default function Navbar() {
       style={{
         background: scrolled ? 'rgba(18,16,13,0.9)' : 'transparent',
         backdropFilter: scrolled ? 'blur(20px)' : 'none',
-        borderBottom: scrolled ? '1px solid rgba(251,191,36,0.1)' : 'none',
+        borderBottom: scrolled ? '1px solid rgba(248,113,113,0.1)' : 'none',
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -26,7 +26,6 @@ export default function Navbar() {
           SiteSparkWeb
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
           {links.map(l => (
             <a
@@ -46,7 +45,6 @@ export default function Navbar() {
           Get Started
         </a>
 
-        {/* Burger */}
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
           onClick={() => setOpen(!open)}
@@ -58,7 +56,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div className="md:hidden glass border-t border-white/5 px-6 py-4 flex flex-col gap-4">
           {links.map(l => (

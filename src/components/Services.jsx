@@ -86,7 +86,7 @@ export default function Services() {
     <section id="services" className="py-20 sm:py-24 px-4 sm:px-6" style={{ background: '#17130f' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f59e0b' }}>What We Offer</p>
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f87171' }}>What We Offer</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             Services Built for <span className="gradient-text">Business Growth</span>
           </h2>
@@ -102,7 +102,7 @@ export default function Services() {
               className="fade-up card-hover p-6 rounded-2xl"
               style={{
                 background: '#1e1812',
-                border: '1px solid rgba(251,191,36,0.08)',
+                border: '1px solid rgba(248,113,113,0.08)',
                 transitionDelay: `${i * 40}ms`,
               }}
             >
