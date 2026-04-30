@@ -8,44 +8,44 @@ export default function Contact() {
             Let's Build Something <span className="gradient-text">Great Together</span>
           </h2>
           <p className="text-base sm:text-lg leading-relaxed max-w-xl mx-auto" style={{ color: '#9a8878' }}>
-            Fill out the short form below and I'll get back to you at my earliest convenience.
+            Ready to get started? Fill out the short form and I'll get back to you at my earliest convenience.
+          </p>
+        </div>
+
+        {/* Card */}
+        <div
+          className="max-w-2xl mx-auto rounded-2xl p-8 sm:p-10 text-center"
+          style={{ background: '#1e1812', border: '1px solid rgba(248,113,113,0.1)' }}
+        >
+          <div className="flex justify-center mb-6">
+            <div
+              className="w-16 h-16 rounded-2xl flex items-center justify-center"
+              style={{ background: 'rgba(220,38,38,0.12)', border: '1px solid rgba(220,38,38,0.25)' }}
+            >
+              <svg className="w-7 h-7" style={{ color: '#f87171' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+              </svg>
+            </div>
+          </div>
+
+          <h3 className="text-white text-xl font-semibold mb-2">Start Your Website Project</h3>
+          <p className="text-sm leading-relaxed mb-8 max-w-sm mx-auto" style={{ color: '#9a8878' }}>
+            Fill out the short onboarding form so I can understand your goals and get back to you with next steps.
           </p>
 
           <a
             href="https://api.leadconnectorhq.com/widget/form/uPdN1naffr3R0xSSXEt2"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-7 py-3 rounded-xl text-sm mt-6"
+            className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-8 py-4 rounded-xl text-base"
           >
             Fill Out the Form
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
             </svg>
           </a>
-        </div>
 
-        {/* Embedded form */}
-        <div
-          className="rounded-2xl overflow-hidden"
-          style={{ background: '#1e1812', border: '1px solid rgba(248,113,113,0.1)' }}
-        >
-          <iframe
-            src="https://api.leadconnectorhq.com/widget/form/uPdN1naffr3R0xSSXEt2"
-            style={{ width: '100%', height: '741px', border: 'none' }}
-            id="inline-uPdN1naffr3R0xSSXEt2"
-            data-layout='{"id":"INLINE"}'
-            data-trigger-type="alwaysShow"
-            data-trigger-value=""
-            data-activation-type="alwaysActivated"
-            data-activation-value=""
-            data-deactivation-type="neverDeactivate"
-            data-deactivation-value=""
-            data-form-name="Website Onboarding Form"
-            data-height="741"
-            data-layout-iframe-id="inline-uPdN1naffr3R0xSSXEt2"
-            data-form-id="uPdN1naffr3R0xSSXEt2"
-            title="Website Onboarding Form"
-          />
+          <p className="text-xs mt-5" style={{ color: '#5a4a3a' }}>Opens in a new tab · Takes about 5–10 minutes</p>
         </div>
 
         {/* Contact details row */}
