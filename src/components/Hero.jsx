@@ -1,12 +1,13 @@
 import SatisfactionMeter from './SatisfactionMeter'
+import HeroBackground from './HeroBackground'
 
 export default function Hero() {
   return (
     <section className="relative flex flex-col items-center overflow-hidden pt-20" style={{ background: '#12100d', minHeight: '100svh' }}>
-      <div className="glow-orb w-96 h-96 opacity-20" style={{ background: '#dc2626', top: '10%', left: '-8%' }} />
-      <div className="glow-orb w-80 h-80 opacity-12" style={{ background: '#b91c1c', bottom: '10%', right: '-5%' }} />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16 lg:py-20 flex-1">
+      <HeroBackground />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16 lg:py-20 flex-1 relative" style={{ zIndex: 1 }}>
 
         {/* ── Left copy ── */}
         <div className="space-y-8">
