@@ -24,9 +24,9 @@ const TICKS = Array.from({ length: 60 }, (_, i) => {
 })
 
 const STATS = [
-  { label: 'Custom Design',  sub: 'Built around your brand'   },
+  { label: 'Custom Design',  sub: 'Built around your brand'    },
   { label: 'Mobile Ready',   sub: 'Looks great on every screen' },
-  { label: 'Fast Delivery',  sub: 'On time, every time'        },
+  { label: 'Fast Delivery',  sub: 'On time, every time'         },
 ]
 
 export default function SatisfactionMeter() {
@@ -65,14 +65,10 @@ export default function SatisfactionMeter() {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
 
       {/* ── Ring ── */}
-      <div style={{
-        position: 'relative',
-        animation: done ? 'float2 7s ease-in-out infinite' : 'none',
-      }}>
+      <div style={{ position: 'relative', animation: done ? 'float2 7s ease-in-out infinite' : 'none' }}>
         <div style={{
-          position: 'absolute', inset: -24,
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(220,38,38,0.13) 0%, transparent 70%)',
+          position: 'absolute', inset: -24, borderRadius: '50%',
+          background: 'radial-gradient(circle, rgba(13,148,136,0.15) 0%, transparent 70%)',
           animation: 'orb-pulse 3.5s ease-in-out infinite',
           opacity: done ? 1 : 0,
           transition: 'opacity 1s ease',
@@ -82,9 +78,9 @@ export default function SatisfactionMeter() {
         <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`} style={{ overflow: 'visible' }}>
           <defs>
             <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%"   stopColor="#f87171" />
-              <stop offset="55%"  stopColor="#ef4444" />
-              <stop offset="100%" stopColor="#dc2626" />
+              <stop offset="0%"   stopColor="#5eead4" />
+              <stop offset="55%"  stopColor="#14b8a6" />
+              <stop offset="100%" stopColor="#0d9488" />
             </linearGradient>
             <filter id="ringGlow" x="-30%" y="-30%" width="160%" height="160%">
               <feGaussianBlur stdDeviation="4" result="blur" />
@@ -95,17 +91,12 @@ export default function SatisfactionMeter() {
             </filter>
           </defs>
 
-          <circle
-            cx={CX} cy={CY} r={RADIUS}
-            fill="none"
-            stroke="rgba(255,255,255,0.05)"
-            strokeWidth={11}
-          />
+          <circle cx={CX} cy={CY} r={RADIUS} fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth={11} />
 
           {TICKS.map((t, i) => (
             <line key={i}
               x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2}
-              stroke="#f87171" strokeOpacity={t.op} strokeWidth={t.sw}
+              stroke="#5eead4" strokeOpacity={t.op} strokeWidth={t.sw}
               strokeLinecap="round"
             />
           ))}
@@ -128,44 +119,23 @@ export default function SatisfactionMeter() {
               <circle
                 cx={CX + RADIUS * Math.cos(ang)}
                 cy={CY + RADIUS * Math.sin(ang)}
-                r={7}
-                fill="#f87171"
-                filter="url(#ringGlow)"
+                r={7} fill="#5eead4" filter="url(#ringGlow)"
               />
             )
           })()}
 
-          <text
-            x={CX} y={CY - 12}
-            textAnchor="middle"
-            fill="white"
-            fontSize={66}
-            fontWeight={800}
-            fontFamily="Inter, system-ui, sans-serif"
-            letterSpacing="-2"
-          >
+          <text x={CX} y={CY - 12} textAnchor="middle" fill="white" fontSize={66} fontWeight={800} fontFamily="Inter, system-ui, sans-serif" letterSpacing="-2">
             {pct}
           </text>
 
-          <text
-            x={CX} y={CY + 24}
-            textAnchor="middle"
-            fill="#f87171"
-            fontSize={20}
-            fontWeight={700}
-            fontFamily="Inter, system-ui, sans-serif"
-          >
+          <text x={CX} y={CY + 24} textAnchor="middle" fill="#5eead4" fontSize={20} fontWeight={700} fontFamily="Inter, system-ui, sans-serif">
             %
           </text>
 
           <text
-            x={CX} y={CY + 50}
-            textAnchor="middle"
-            fill="rgba(180,160,140,0.75)"
-            fontSize={10}
-            fontWeight={600}
-            fontFamily="Inter, system-ui, sans-serif"
-            letterSpacing="2"
+            x={CX} y={CY + 50} textAnchor="middle"
+            fill="rgba(160,200,196,0.75)" fontSize={10} fontWeight={600}
+            fontFamily="Inter, system-ui, sans-serif" letterSpacing="2"
             style={{ opacity: done ? 1 : 0, transition: 'opacity 0.8s ease' }}
           >
             SATISFACTION
@@ -176,22 +146,14 @@ export default function SatisfactionMeter() {
       {/* ── Headline ── */}
       <div style={{ textAlign: 'center', minHeight: 52 }}>
         <p style={{
-          color: 'white',
-          fontSize: 18,
-          fontWeight: 700,
-          marginBottom: 4,
+          color: 'white', fontSize: 18, fontWeight: 700, marginBottom: 4,
           opacity: done ? 1 : 0,
           transform: done ? 'translateY(0)' : 'translateY(6px)',
           transition: 'opacity 0.7s ease, transform 0.7s ease',
         }}>
           100% Satisfaction From Customers
         </p>
-        <p style={{
-          color: '#7a6a5a',
-          fontSize: 13,
-          opacity: done ? 1 : 0,
-          transition: 'opacity 0.7s ease 0.3s',
-        }}>
+        <p style={{ color: '#5a8a84', fontSize: 13, opacity: done ? 1 : 0, transition: 'opacity 0.7s ease 0.3s' }}>
           Every project delivered with care and precision
         </p>
       </div>
@@ -200,30 +162,27 @@ export default function SatisfactionMeter() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 9, width: '100%', maxWidth: 290 }}>
         {STATS.map((s, i) => (
           <div key={i} style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 12,
-            background: '#1e1812',
-            border: '1px solid rgba(248,113,113,0.1)',
-            borderRadius: 12,
-            padding: '9px 14px',
+            display: 'flex', alignItems: 'center', gap: 12,
+            background: 'rgba(13,148,136,0.08)',
+            border: '1px solid rgba(94,234,212,0.12)',
+            borderRadius: 12, padding: '9px 14px',
             opacity: showStats[i] ? 1 : 0,
             transform: showStats[i] ? 'translateY(0)' : 'translateY(10px)',
             transition: 'opacity 0.5s ease, transform 0.5s ease',
           }}>
             <div style={{
               width: 28, height: 28, borderRadius: 8, flexShrink: 0,
-              background: 'rgba(220,38,38,0.14)',
-              border: '1px solid rgba(220,38,38,0.28)',
+              background: 'rgba(13,148,136,0.18)',
+              border: '1px solid rgba(94,234,212,0.25)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
             }}>
-              <svg width={13} height={13} fill="none" stroke="#f87171" viewBox="0 0 24 24">
+              <svg width={13} height={13} fill="none" stroke="#5eead4" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
               </svg>
             </div>
             <div>
-              <div style={{ color: '#f0e8df', fontSize: 13, fontWeight: 600, lineHeight: 1.3 }}>{s.label}</div>
-              <div style={{ color: '#6a5a4a', fontSize: 11 }}>{s.sub}</div>
+              <div style={{ color: '#e2eeec', fontSize: 13, fontWeight: 600, lineHeight: 1.3 }}>{s.label}</div>
+              <div style={{ color: '#4a7a74', fontSize: 11 }}>{s.sub}</div>
             </div>
           </div>
         ))}

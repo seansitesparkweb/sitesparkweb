@@ -31,14 +31,14 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="py-24 px-4 sm:px-6" style={{ background: '#17130f' }}>
+    <section id="portfolio" className="py-24 px-4 sm:px-6" style={{ background: 'transparent' }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 sm:mb-16">
-          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#f87171' }}>Website Previews</p>
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#5eead4' }}>Website Previews</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             See What We <span className="gradient-text">Can Build for You</span>
           </h2>
-          <p className="text-base sm:text-lg max-w-xl mx-auto" style={{ color: '#9a8878' }}>
+          <p className="text-base sm:text-lg max-w-xl mx-auto" style={{ color: '#8ab0aa' }}>
             Explore concept previews across industries — each one designed to convert visitors into customers.
           </p>
         </div>
@@ -49,15 +49,15 @@ export default function Portfolio() {
               key={i}
               className="fade-up card-hover rounded-2xl overflow-hidden group"
               style={{
-                border: '1px solid rgba(248,113,113,0.09)',
-                background: '#1e1812',
+                border: '1px solid rgba(94,234,212,0.09)',
+                background: 'rgba(13,148,136,0.07)',
                 transitionDelay: `${i * 60}ms`,
               }}
             >
               {/* Mini mockup */}
               <div
                 className="relative overflow-hidden"
-                style={{ height: '220px', background: '#161008', borderBottom: '1px solid rgba(248,113,113,0.07)' }}
+                style={{ height: '220px', background: '#0c1a19', borderBottom: '1px solid rgba(94,234,212,0.07)' }}
               >
                 {/* Browser bar */}
                 <div
