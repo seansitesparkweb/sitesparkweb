@@ -2,14 +2,14 @@
   { value: '50+', label: 'Sites Built' },
   { value: '100%', label: 'Client Satisfaction' },
   { value: 'A+', label: 'Design Quality' },
-  { value: '0', label: 'Long-Term Contracts' },
+  { value: 'Flexible', label: 'Contracts' },
 ]
 
 const promises = [
   'Direct communication — no account managers or middlemen',
   'Revisions until you are 100% happy with the result',
   'Mobile-first design on every single project',
-  'You own your website completely — no lock-in',
+  'Full access to your website — we handle the technical side',
 ]
 
 export default function About() {
