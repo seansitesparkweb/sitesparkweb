@@ -31,7 +31,7 @@ export default function Hero() {
               href="#contact"
               className="btn-primary text-white font-semibold px-7 py-4 rounded-xl text-base inline-flex items-center justify-center gap-2"
             >
-              Book a Free Call
+              Contact Me
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

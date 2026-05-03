@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
 
         <a href="#contact" className="hidden md:inline-flex btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-lg">
-          Book a Free Call
+          Contact Me
         </a>
 
         <button className="md:hidden flex flex-col gap-1.5 p-2" onClick={() => setOpen(!open)} aria-label="Toggle menu">
@@ -51,7 +51,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href="#contact" className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-lg text-center" onClick={() => setOpen(false)}>
-            Book a Free Call
+            Contact Me
           </a>
         </div>
       )}

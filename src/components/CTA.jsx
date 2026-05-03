@@ -17,7 +17,7 @@ export default function CTA() {
             Book a free 20-minute call. We'll learn about your business and show you exactly how we'd build your site — no pressure, no obligation.
           </p>
           <a href="#contact" className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-10 py-4 rounded-xl text-lg">
-            Book Your Free Call
+            Contact Me
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
