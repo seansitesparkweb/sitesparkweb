@@ -2,28 +2,24 @@
 
 const faqs = [
   {
-    q: 'How long does it take to build my website?',
-    a: 'Most projects are delivered within 2-3 weeks. Larger or more complex sites may take slightly longer, but we will give you a clear timeline before we start.',
-  },
-  {
     q: 'Do I need to know how to code or design?',
-    a: 'Not at all. We handle everything — design, development, and launch. All you need to do is share your goals and content (logos, photos, etc.) and we take it from there.',
+    a: 'Not at all. We handle everything — design, development, and launch. All you need to do is share your goals and any content you have (logos, photos, etc.) and we take it from there.',
   },
   {
     q: 'What happens if I want changes after it is live?',
-    a: 'All plans include revisions before launch. After launch, we offer ongoing maintenance and update packages so your site always stays current.',
+    a: 'Every project includes revisions before launch so we get it exactly right. After launch, we offer ongoing maintenance and update packages to keep your site current.',
   },
   {
     q: 'Will my website work on phones and tablets?',
     a: 'Yes — every site we build is fully mobile-responsive. We design mobile-first, so your site looks and works great on any screen size.',
   },
   {
-    q: 'Who owns the website after it is built?',
-    a: "You do, completely. We don't lock you into any platform or subscription. Once your site is delivered, it's 100% yours.",
+    q: 'How much does a website cost?',
+    a: 'Every project is priced custom based on your goals, scope, and needs — so you only pay for what actually makes sense for your business. Contact us and we will put together a quote tailored to you.',
   },
   {
     q: 'How do I get started?',
-    a: 'Just click "Book a Free Call" and we will schedule a short conversation to learn about your business and figure out the best plan for you. No commitment required.',
+    a: 'Just click "Contact Me" — you can either fill out the short onboarding form or book a free video call to talk through your project. No commitment required.',
   },
 ]
 
