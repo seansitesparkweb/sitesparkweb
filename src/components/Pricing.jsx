@@ -3,11 +3,9 @@
   'Mobile-responsive on every device',
   'Lead capture & CRM integration',
   'On-page SEO optimization',
-  'Google Analytics setup',
   'AI chat & automation (optional)',
   'Monthly SEO & content (optional)',
   'Revisions until you are 100% happy',
-  'You own everything — no lock-in',
 ]
 
 export default function Pricing() {
