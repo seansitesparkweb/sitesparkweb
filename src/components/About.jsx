@@ -1,7 +1,7 @@
 ﻿const stats = [
   { value: '50+', label: 'Sites Built' },
   { value: '100%', label: 'Client Satisfaction' },
-  { value: '3 Wks', label: 'Avg. Delivery' },
+  { value: '5★', label: 'Client Rating' },
   { value: '0', label: 'Long-Term Contracts' },
 ]
 
