@@ -10,19 +10,19 @@ export default function CTA() {
             Now Accepting New Clients
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-5 leading-tight">
-            Ready to Upgrade Your{' '}
-            <span className="gradient-text">Online Presence?</span>
+            Ready to Build a Website That{' '}
+            <span className="gradient-text">Actually Grows Your Business?</span>
           </h2>
           <p className="text-lg mb-10 max-w-xl mx-auto leading-relaxed" style={{ color: '#8ab0aa' }}>
-            Let's build a website that makes your business look professional and helps customers take action.
+            Book a free 20-minute call. We'll learn about your business and show you exactly how we'd build your site — no pressure, no obligation.
           </p>
           <a href="#contact" className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-10 py-4 rounded-xl text-lg">
-            Start Your Website
+            Book Your Free Call
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <p className="text-sm mt-6" style={{ color: '#2a5050' }}>No commitment required · Free initial consultation</p>
+          <p className="text-sm mt-6" style={{ color: '#2a5050' }}>No commitment required · Free 20-min strategy call</p>
         </div>
       </div>
     </section>

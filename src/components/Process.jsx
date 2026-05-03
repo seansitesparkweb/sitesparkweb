@@ -1,8 +1,8 @@
 const steps = [
-  { num: '01', title: 'Discover Your Goals',  desc: 'We start with a conversation about your business, your audience, and what you want your website to achieve.', color: '#5eead4' },
-  { num: '02', title: 'Design the Layout',    desc: 'We craft a clean, modern design concept built around your brand identity and business objectives.',            color: '#2dd4bf' },
-  { num: '03', title: 'Build and Refine',     desc: 'We build your site and work through revisions together until every detail is exactly right.',                  color: '#14b8a6' },
-  { num: '04', title: 'Launch Your Website',  desc: 'Your site goes live — fully tested, optimized, and ready to make a great impression from day one.',            color: '#0d9488' },
+  { num: '01', title: 'Attract',   desc: 'A professionally designed website makes your business the obvious choice — pulling in qualified visitors from Google and word of mouth.', color: '#5eead4', icon: '🎯' },
+  { num: '02', title: 'Convert',   desc: 'Smart layouts, compelling copy, and strategic CTAs turn those visitors into real leads — calls, form fills, and booked appointments.',    color: '#2dd4bf', icon: '⚡' },
+  { num: '03', title: 'Scale',     desc: 'With SEO and lead generation running, your pipeline grows steadily. More traffic, more leads, more revenue — month after month.',       color: '#14b8a6', icon: '📈' },
+  { num: '04', title: 'Automate',  desc: 'AI automation handles follow-ups, qualifies leads, and keeps your calendar full — so you spend time on clients, not admin.',           color: '#0d9488', icon: '🤖' },
 ]
 
 export default function Process() {
@@ -10,12 +10,12 @@ export default function Process() {
     <section id="process" className="py-20 sm:py-24 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#5eead4' }}>How It Works</p>
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#5eead4' }}>The Growth System</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            From Idea to <span className="gradient-text">Live Website</span>
+            How We <span className="gradient-text">Grow Your Business</span>
           </h2>
           <p className="text-lg max-w-xl mx-auto" style={{ color: '#8ab0aa' }}>
-            A simple, transparent process so you always know what's happening and what comes next.
+            A proven 4-step system that takes you from invisible online to fully booked.
           </p>
         </div>
 
