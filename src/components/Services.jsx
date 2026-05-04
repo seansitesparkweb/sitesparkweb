@@ -9,7 +9,7 @@ const services = [
     tagline: 'Look like the obvious choice',
     desc: 'Custom, conversion-focused websites built from scratch. Modern, fast, and designed to make visitors take action.',
     color: '#14b8a6',
-    results: ['More leads from day one', 'Mobile-first on every device', 'Delivered in 2–3 weeks'],
+    results: ['More leads from day one', 'Mobile-first on every device', 'Ready to launch once your vision is locked in'],
   },
   {
     icon: (
