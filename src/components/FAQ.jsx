@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: 'How do I get started?',
-    a: 'Just click "Contact Me" — you can either fill out the short onboarding form or book a free video call to talk through your project. No commitment required.',
+    a: 'Just click "Contact Me" — you can either fill out the short onboarding form or pick a time for a free chat where we\'ll talk through your business, what you need, and what it would cost. No pressure, no commitment.',
   },
 ]
 

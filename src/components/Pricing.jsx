@@ -18,7 +18,7 @@ export default function Pricing() {
             Custom Pricing for <span className="gradient-text">Every Business</span>
           </h2>
           <p className="text-lg max-w-xl mx-auto" style={{ color: '#8ab0aa' }}>
-            Every business is different — so every quote is too. Book a free call and we'll put together a package built around your goals and budget.
+            Every business is different — so every quote is too. Reach out and we'll have a relaxed chat about your goals, what would work best for you, and what it would cost. No pressure.
           </p>
         </div>
 
