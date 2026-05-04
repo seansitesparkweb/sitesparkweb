@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm" style={{ color: '#5eead4' }}>
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: '#5eead4' }} />
-            NJ Web Design Studio · Now Accepting Clients
+            Web Design Studio · Now Accepting Clients
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight tracking-tight text-white">
@@ -59,7 +59,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm" style={{ color: '#6a9a94' }}>
-              Trusted by <span style={{ color: '#5eead4' }}>10+ business owners</span> across NJ
+              Trusted by <span style={{ color: '#5eead4' }}>10+ business owners</span> nationwide
             </p>
           </div>
         </div>

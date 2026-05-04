@@ -2,7 +2,7 @@
   {
     quote: 'We went from 2-3 leads a month to over 20 after launching our new site. SiteSparkWeb understood exactly what our customers needed to see to pick up the phone.',
     name: 'Mike R.',
-    role: 'Owner · NJ Roofing Co.',
+    role: 'Owner · Local Roofing Co.',
     delay: 0,
   },
   {
