@@ -17,8 +17,7 @@ export default function Hero() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight tracking-tight text-white">
             Your Website Should Be{' '}
-            <span className="gradient-text">Working Harder</span>{' '}
-            Than You Are
+            <span className="gradient-text">Your Best Salesperson</span>
           </h1>
 
           <p className="text-lg leading-relaxed max-w-lg" style={{ color: '#a8c4c0' }}>
@@ -42,7 +41,7 @@ export default function Hero() {
           </div>
 
           <div className="flex items-center gap-8 pt-2">
-            {[['50+', 'Sites Built'], ['3 Wks', 'Avg. Delivery'], ['100%', 'Satisfaction']].map(([val, label]) => (
+            {[['10+', 'Websites Built'], ['A+', 'Design Quality'], ['100%', 'Satisfaction']].map(([val, label]) => (
               <div key={label} className="text-center">
                 <div className="text-xl font-bold gradient-text">{val}</div>
                 <div className="text-xs" style={{ color: '#5a7a76' }}>{label}</div>
@@ -60,7 +59,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm" style={{ color: '#6a9a94' }}>
-              Trusted by <span style={{ color: '#5eead4' }}>50+ business owners</span> across NJ
+              Trusted by <span style={{ color: '#5eead4' }}>10+ business owners</span> across NJ
             </p>
           </div>
         </div>

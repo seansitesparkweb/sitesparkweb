@@ -1,5 +1,5 @@
 ﻿const stats = [
-  { value: '50+', label: 'Sites Built' },
+  { value: '10+', label: 'Websites Built' },
   { value: '100%', label: 'Client Satisfaction' },
   { value: 'A+', label: 'Design Quality' },
   { value: 'Flexible', label: 'Contracts' },
@@ -25,7 +25,7 @@ export default function About() {
               <span className="gradient-text">That's the Point.</span>
             </h2>
             <p className="text-base leading-relaxed" style={{ color: '#8ab0aa' }}>
-              Big agencies charge $10,000+ and hand your project off to a junior designer you'll never speak to. We work differently. Every project is handled personally — fast communication, real craftsmanship, and a genuine focus on growing your business.
+              Big agencies charge $5,000+ and hand your project off to a junior designer you'll never speak to. We work differently. Every project is handled personally — fast communication, real craftsmanship, and a genuine focus on growing your business.
             </p>
             <p className="text-base leading-relaxed" style={{ color: '#8ab0aa' }}>
               We started SiteSparkWeb because we kept seeing local businesses lose customers to competitors with better-looking websites. A great website shouldn't cost a fortune — it should just work.
