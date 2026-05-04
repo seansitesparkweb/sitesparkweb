@@ -31,7 +31,7 @@ const services = [
     ),
     title: 'Lead Generation',
     tagline: 'Turn visitors into customers',
-    desc: 'Smart forms, CRM integration, and conversion flows that capture and qualify leads while you sleep.',
+    desc: 'Smart forms, CRM integration, and conversion flows that capture and qualify leads around the clock.',
     color: '#f97316',
     results: ['Leads sent to your inbox', 'CRM & calendar sync', 'Real-time notifications'],
   },
