@@ -3,7 +3,7 @@
   'Mobile-responsive on every device',
   'Lead capture & CRM integration',
   'On-page SEO optimization',
-  'AI chat & automation (optional)',
+  'AI chatbox integration (optional)',
   'Monthly SEO & content (optional)',
   'Revisions until you are 100% happy',
 ]

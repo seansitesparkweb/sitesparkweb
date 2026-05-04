@@ -2,7 +2,7 @@ const steps = [
   { num: '01', title: 'Attract',   desc: 'A professionally designed website makes your business the obvious choice — pulling in qualified visitors from Google and word of mouth.', color: '#5eead4', icon: '🎯' },
   { num: '02', title: 'Convert',   desc: 'Smart layouts, compelling copy, and strategic CTAs turn those visitors into real leads — calls, form fills, and booked appointments.',    color: '#2dd4bf', icon: '⚡' },
   { num: '03', title: 'Scale',     desc: 'With SEO and lead generation running, your pipeline grows steadily. More traffic, more leads, more revenue — month after month.',       color: '#14b8a6', icon: '📈' },
-  { num: '04', title: 'Automate',  desc: 'AI automation handles follow-ups, qualifies leads, and keeps your calendar full — so you spend time on clients, not admin.',           color: '#0d9488', icon: '🤖' },
+  { num: '04', title: 'Automate',  desc: 'An AI chatbox on your site engages every visitor instantly — answering questions, capturing leads, and converting interest into action around the clock.', color: '#0d9488', icon: '🤖' },
 ]
 
 export default function Process() {

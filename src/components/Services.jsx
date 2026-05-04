@@ -33,7 +33,7 @@ const services = [
     tagline: 'Turn visitors into customers',
     desc: 'Smart forms, CRM integration, and conversion flows that capture and qualify leads while you sleep.',
     color: '#f97316',
-    results: ['Leads sent to your inbox', 'CRM & calendar sync', 'Automated follow-up'],
+    results: ['Leads sent to your inbox', 'CRM & calendar sync', 'Real-time notifications'],
   },
   {
     icon: (
@@ -41,11 +41,11 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: 'AI Automation',
-    tagline: 'Work less, earn more',
-    desc: 'AI-powered chat, automated responses, and smart workflows that handle repetitive tasks so you can focus on growth.',
+    title: 'AI Chatbox',
+    tagline: 'Always on, always converting',
+    desc: 'A smart AI chat assistant built into your website that answers questions, captures leads, and engages visitors 24/7 — even when you\'re offline.',
     color: '#8b5cf6',
-    results: ['24/7 AI lead capture', 'Auto-qualify prospects', 'Reduce manual follow-up'],
+    results: ['24/7 visitor engagement', 'Instant answers to common questions', 'Leads captured while you sleep'],
   },
 ]
 
