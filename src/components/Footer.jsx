@@ -1,3 +1,5 @@
+import Logo from './Logo'
+
 export default function Footer() {
   const links = ['Services', 'Portfolio', 'Process', 'Contact']
   return (
@@ -5,7 +7,7 @@ export default function Footer() {
       style={{ borderTop: '1px solid rgba(94,234,212,0.09)' }}>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <div className="text-lg font-bold gradient-text mb-1">SiteSparkWeb</div>
+          <Logo width={140} />
           <div className="text-sm" style={{ color: '#3a6060' }}>Modern websites for growing businesses.</div>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
