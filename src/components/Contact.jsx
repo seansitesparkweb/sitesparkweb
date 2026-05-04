@@ -57,9 +57,9 @@ export default function Contact() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-white text-lg font-semibold mb-2">Book a Video Call</h3>
+            <h3 className="text-white text-lg font-semibold mb-2">Let's Have a Chat</h3>
             <p className="text-sm leading-relaxed mb-8 flex-1" style={{ color: '#8ab0aa' }}>
-              Pick a time that works for you and we'll hop on a quick video call to talk through your project.
+              No pressure, no pitch — just a relaxed conversation about your business, what you're looking for, and what a website could do for you. We'll cover pricing too so you have a clear picture before making any decisions.
             </p>
             <a
               href="https://api.leadconnectorhq.com/widget/booking/A7rzPNvv5EXyEaQhK8KJ"
@@ -72,7 +72,7 @@ export default function Contact() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
-            <p className="text-xs mt-4" style={{ color: '#3a6060' }}>Free · 20-minute video call</p>
+            <p className="text-xs mt-4" style={{ color: '#3a6060' }}>Free · 20-minute call · No commitment</p>
           </div>
         </div>
 
